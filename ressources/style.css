@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-color: #333333;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #f1f1f1;
+    width: 100%;
+}
+
+header nav {
+    width: 40%;
+}
+
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    color: #f1f1f1;
+    margin: 3% 5%;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+.learnNavigation {
+    position: fixed;
+    justify-content: center;
+    width: 15%;
+    height: 100%;
+    background-color: #e0e0e0;
+}
+
+
+ul {
+    list-style: none;
+}
