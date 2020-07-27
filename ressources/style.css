@@ -1,13 +1,29 @@
+:root {
+     --darkColor: #333333;
+     --lighColor: #eeeeee;
+     --whiteColor: #fafafa;
+     --greyColor: #f1f1f1;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
-    background-color: #333333;
+    background-color: var(--whiteColor);
+    color: var(--darkColor);
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 header {
+    position: fixed;
+    top: 0;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    background-color: #f1f1f1;
+    background-color: #e0e0e0;
     width: 100%;
 }
 
@@ -28,6 +44,11 @@ header nav ul {
 header nav ul li {
     color: #f1f1f1;
     margin: 3% 5%;
+}
+
+main {
+    margin: 3% 0 0 15%;
+    padding: 1%;
 }
 
 a {
@@ -54,4 +75,65 @@ a:hover {
 
 ul {
     list-style: none;
+}
+
+input, label {
+    margin: 0.5rem 0;
+}
+
+/* --------- CODE-------- */
+
+.exemple {
+    border: solid 1px var(--darkColor);
+    border-left: solid 10px var(--darkColor);
+}
+
+figure {
+    width: 50%;
+}
+
+figcaption {
+    margin: 1% 0;
+    font-weight: bold;
+}
+
+code {
+    font-family: consolas;
+    line-height: 1.5;
+}
+
+.codeExemple {
+    padding: 1% ;
+}
+
+.highlight {
+    background-color: var(--lighColor);
+}
+
+pre {
+    white-space: pre-wrap;
+    margin: 0;
+}
+
+.codeTag {
+    color: #005cf1;
+}
+
+.codeAttribut {
+    color: #005f62;
+}
+
+.codeAttributValue {
+    color: #cf1212;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
