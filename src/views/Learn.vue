@@ -4,7 +4,7 @@
 
 <script lang="ts">
 
-import Sidebar from '@/components/learn/SideBar.component.vue'
+import Sidebar from '@/components/learn/LearnNav.component.vue'
 export default {
   name: "Learn.vue",
   components: {

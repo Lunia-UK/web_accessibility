@@ -1,5 +1,4 @@
 <template>
-  <aside class="sidebar">
     <nav class="sidebar-links">
       <ul>
         <li>
@@ -53,26 +52,16 @@
         </li>
       </ul>
     </nav>
-  </aside>
 </template>
 
 <script lang="ts">
 export default {
-  name: "SideBar"
+  name: "LearnNav"
 }
 </script>
 
 <style scoped lang="scss">
-.sidebar {
-  position: fixed;
-  top: 3.6rem;
-  left: 0;
-  bottom: 0;
-  padding: 1.2rem 0;
-  width: 20rem;
-  overflow-y: auto;
-  border-right: 1px solid #eaecef;
-}
+
 
 .sidebar-heading {
   font-size: 1.1em;
