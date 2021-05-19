@@ -13,6 +13,8 @@
 </template>
 
 <style lang="scss">
+$nav-height: 3.6rem;
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -28,7 +30,7 @@
   display: flex;
   justify-content: flex-end;
   align-content: center;
-  height: 3.6rem;
+  height: $nav-height;
   border-bottom: 1px solid #eaecef;
   padding: 0 2rem;
   #home {
@@ -49,6 +51,6 @@
 }
 
 main {
-  margin-top: 3.6rem;
+  margin-top: $nav-height;
 }
 </style>

@@ -1,6 +1,5 @@
 <template>
   <Sidebar />
-  <h1>This is an learn page</h1>
 </template>
 
 <script lang="ts">
